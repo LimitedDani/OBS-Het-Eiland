@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "104102574479",
+    "firebase_url": "https://obs-het-eiland.firebaseio.com",
+    "project_id": "obs-het-eiland",
+    "storage_bucket": "obs-het-eiland.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:104102574479:android:e5d2f0073726103b",
+        "android_client_info": {
+          "package_name": "schoolapp.limiteddani.nl.obsheteiland"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "104102574479-vpnf5rnuclm7tf7l9t6es5que2nimvan.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAoI0pI6on7FkWPKj7wDghsEEgeBAKXqOA"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

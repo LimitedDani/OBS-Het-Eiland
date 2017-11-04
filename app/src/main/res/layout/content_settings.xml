@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+xmlns:tools="http://schemas.android.com/tools"
+xmlns:app="http://schemas.android.com/apk/res-auto"
+android:id="@+id/content_main"
+android:layout_width="match_parent"
+android:layout_height="match_parent"
+app:layout_behavior="@string/appbar_scrolling_view_behavior"
+tools:context="schoolapp.limiteddani.nl.obsheteiland.activity.Settings"
+tools:showIn="@layout/activity_settings">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <RelativeLayout
+            android:id="@+id/settings_layout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true"
+            android:paddingBottom="@dimen/activity_vertical_margin"
+            android:paddingLeft="@dimen/activity_horizontal_margin"
+            android:paddingRight="@dimen/activity_horizontal_margin"
+            android:paddingTop="@dimen/activity_vertical_margin">
+
+            <TextView
+                android:id="@+id/settings_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:text="NOTIFICATIES"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/settings_line1"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/settings_title"
+                android:background="@android:color/darker_gray" />
+
+            <CheckBox
+                android:id="@+id/cb_g12a"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/settings_line1"
+                android:button="@null"
+                android:buttonTint="@color/colorAccent"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Groep 1/2a"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent" />
+
+            <CheckBox
+                android:id="@+id/cb_g12b"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cb_g12a"
+                android:button="@null"
+                android:buttonTint="@color/colorAccent"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Groep 1/2b"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent" />
+
+            <CheckBox
+                android:id="@+id/cb_g12c"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cb_g12b"
+                android:button="@null"
+                android:buttonTint="@color/colorAccent"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Groep 1/2c"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent" />
+
+            <CheckBox
+                android:id="@+id/cb_g34"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cb_g12c"
+                android:button="@null"
+                android:buttonTint="@color/colorAccent"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Groep 3/4"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent" />
+
+            <CheckBox
+                android:id="@+id/cb_g45"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cb_g34"
+                android:button="@null"
+                android:buttonTint="@color/colorAccent"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Groep 4/5"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent" />
+
+            <CheckBox
+                android:id="@+id/cb_g56"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cb_g45"
+                android:button="@null"
+                android:buttonTint="@color/colorAccent"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Groep 5/6"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent" />
+
+            <CheckBox
+                android:id="@+id/cb_g7"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cb_g56"
+                android:button="@null"
+                android:buttonTint="@color/colorAccent"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Groep 7"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent" />
+
+            <CheckBox
+                android:id="@+id/cb_g8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/cb_g7"
+                android:button="@null"
+                android:buttonTint="@color/colorAccent"
+                android:drawableRight="?android:attr/listChoiceIndicatorMultiple"
+                android:text="Groep 8"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent" />
+
+            <Space
+                android:id="@+id/settings_space_1"
+                android:layout_width="match_parent"
+                android:layout_height="20dp"
+                android:layout_below="@+id/cb_g8"/>
+
+            <TextView
+                android:id="@+id/settings_title_1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:text="ALGEMEEN"
+                android:layout_below="@+id/settings_space_1"
+                android:textColor="@android:color/darker_gray"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/settings_line2"
+                android:layout_width="fill_parent"
+                android:layout_height="2dp"
+                android:layout_below="@+id/settings_title_1"
+                android:background="@android:color/darker_gray" />
+
+            <Switch
+                android:id="@+id/cb_n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_below="@+id/settings_line2"
+                android:buttonTint="@color/colorAccent"
+                android:checked="true"
+                android:text="Notificaties ontvangen"
+                android:textSize="18sp"
+                app:buttonTint="@color/colorAccent"
+                tools:checked="true" />
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

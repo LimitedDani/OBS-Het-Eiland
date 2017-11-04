@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--App-->
+    <string name="app_name">OBS Het Eiland</string>
+    <string name="app_settings">Instellingen</string>
+    <string name="app_news">Nieuws</string>
+    <string name="app_news_article">{Nieuws naam}</string>
+    <string name="app_about">Over</string>
+
+    <color name="colorPrimary">#3f51b5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="colorinvisible">#66000000</color>
+    <!--Sidebar Navigation-->
+    <string name="navigation_drawer_open">Open navigatie</string>
+    <string name="navigation_drawer_close">Sluit navigatie</string>
+    <string name="navigation_title">OBS Het Eiland</string>
+    <color name="navigation_title">#FF4081</color>
+
+    <!--Home-->
+    <string name="news_title">{Nieuws}</string>
+    <string name="news_description">{Beschrijving}</string>
+
+    <!--Navigation-->
+    <string name="navigation_option_settings">Instellingen</string>
+    <string name="navigation_option_about">Over</string>
+
+    <!--Settings-->
+    <string name="settings_backgroundtask">In achtergrond uitvoeren</string>
+
+    <!--About-->
+    <string name="app_author_line">App ontwikkeld door Daníque de Jong</string>
+    <!--News-->
+
+    <!--URL-->
+    <string name="url_notification">http://eiland.daniquedejong.nl/notification.php</string>
+    <string name="url_news">http://eiland.daniquedejong.nl/news.php</string>
+    <string name="url_device">http://eiland.daniquedejong.nl/device.php</string>
+
+    <!--Internet-->
+    <string name="internet_error_message_line_1">Er is een fout opgetreden</string>
+    <string name="internet_error_message_line_2">Er kan geen internet verbinding tot stand gebracht worden, verbind met het internet en probeer het dan opnieuw.</string>
+</resources>

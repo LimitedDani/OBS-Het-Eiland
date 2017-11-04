@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_home"
+            android:title="Home" />
+        <item
+            android:id="@+id/nav_groep12a"
+            android:title="Groep 1/2 A" />
+        <item
+            android:id="@+id/nav_groep12b"
+            android:title="Groep 1/2 B" />
+        <item
+            android:id="@+id/nav_groep12c"
+            android:title="Groep 1/2 C" />
+        <item
+            android:id="@+id/nav_groep34"
+            android:title="Groep 3/4" />
+        <item
+            android:id="@+id/nav_groep45"
+            android:title="Groep 4/5" />
+        <item
+            android:id="@+id/nav_groep56"
+            android:title="Groep 5/6" />
+        <item
+            android:id="@+id/nav_groep7"
+            android:title="Groep 7" />
+        <item
+            android:id="@+id/nav_groep8"
+            android:title="Groep 8" />
+    </group>
+</menu>
